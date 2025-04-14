@@ -1,0 +1,113 @@
+/*geral do site*/
+
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif ;
+    box-sizing: border-box;
+    
+    
+
+}
+    /* titulos*/
+    h1{
+            text-align:center;
+            color:darkred;
+            font-family: 'Inconsolata', monospace;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-top: 40px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    }
+
+           
+            
+    h3,h2{
+        text-align:center;
+        color:blueviolet;
+        margin-bottom: 10px;
+        background-color: aquamarine;
+    }
+
+    /*corpo do site*/
+
+    body{
+    background-color: lightblue;
+    color:rgb(1, 1, 45);
+    text-align:center;
+    overflow-x: hidden;
+}
+    table{
+        text-align:center;
+    }
+        
+    .apresentacaocesae{
+        display: flex;
+        justify-content: center;
+        box-shadow: black;
+    }
+
+    
+
+        #submit {color:green; width: 500;} 
+
+        .formulario {
+            color: rgb(70, 164, 175);
+            padding: 20px;
+            background-color: rgb(17, 74, 81) ;
+            text-align: center;
+
+        }
+
+        .outros{
+            width:1200px;
+            height:450px;
+            padding:20px;
+            border:2px solid black;
+            margin:0 auto;
+            text-align: center;
+
+        }
+
+        .interesses{
+            text-align: center;
+        }
+
+        .tables{
+            display:flex;
+            justify-content:center;
+        }
+
+        /* formatação para os paragrafos*/ 
+        p{
+            margin: top 50px;
+            margin-bottom: 30px;
+            margin-right: 80px;
+            margin-left: 80px;
+        }
+
+        /* formatação da minha imagem*/
+
+        .minhaimagem {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 200px;
+          }
+
+          #imagemlogocesae{
+            width: 100px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+          }
+
+          /* formatação do formulario*/
+
+          .formulario{
+            border-radius: 20px;
+            box-shadow: darkviolet;
+         }
+          #email,#nome,#mensagem{
+            border-radius: 20px;
+         }
