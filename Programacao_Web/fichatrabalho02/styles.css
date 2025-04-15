@@ -3,7 +3,7 @@
 *{
     margin:0;
     padding:0;
-    font-family: Arial, Helvetica, sans-serif ;
+    font-family: "Inconsolata", monospace; 
     box-sizing: border-box;
     
     
@@ -12,7 +12,7 @@
     /* titulos*/
     h1{
             text-align:center;
-            color:darkred;
+            color:#1e1e2f;
             font-family: 'Inconsolata', monospace;
             text-transform: uppercase;
             letter-spacing: 2px;
@@ -26,16 +26,24 @@
         text-align:center;
         color:blueviolet;
         margin-bottom: 10px;
-        background-color: aquamarine;
+        font-weight: bold;
+        
     }
 
     /*corpo do site*/
 
     body{
-    background-color: lightblue;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: #dfe2f9;
     color:rgb(1, 1, 45);
     text-align:center;
     overflow-x: hidden;
+    background-image: url("ChatGPT\ Image\ Apr\ 15\,\ 2025\,\ 03_12_17\ PM.png");
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+    
 }
     table{
         text-align:center;
@@ -47,10 +55,28 @@
         box-shadow: black;
     }
 
+
+    /* formatação da minha imagem*/
+
+    .minhaimagem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+  }
+
+  #imagemlogocesae{
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
+
     
 
         #submit {color:green; width: 500;} 
 
+       
         .formulario {
             color: rgb(70, 164, 175);
             padding: 20px;
@@ -86,28 +112,45 @@
             margin-left: 80px;
         }
 
-        /* formatação da minha imagem*/
-
-        .minhaimagem {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                height: 200px;
-          }
-
-          #imagemlogocesae{
-            width: 100px;
-            height: auto;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-          }
+        
 
           /* formatação do formulario*/
 
           .formulario{
-            border-radius: 20px;
+            border-radius: 10px;
             box-shadow: darkviolet;
          }
           #email,#nome,#mensagem{
-            border-radius: 20px;
+            border-radius: 5px;
+         }
+
+         /* Estilos para a barra de navegação*/
+         nav{
+            background-color: #333;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            z-index: 1000;
+         }
+         nav ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+         }
+         nav ul li{
+            display: inline;
+            margin-right: 20px;
+
+         }
+         nav ul li a{
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+         }
+         nav ul li a:hover{
+            color: #ff6347;
          }
